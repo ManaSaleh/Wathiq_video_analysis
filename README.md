@@ -18,7 +18,7 @@ This project aims to [briefly describe the purpose and goals of the project].
 To get started with the project, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Install the required dependencies by running `pip install -r requirements.txt`.
+2. Install the required dependencies by running `pip install -r requirements.txt` (preferreably inside a virtual environment)
 3. [Any additional installation steps or commands]
 
 ## Usage

@@ -1,0 +1,10 @@
+deepface==0.0.91
+mediapipe==0.10.14
+moviepy==1.0.3
+numpy==1.26.4
+openai_whisper==20231117
+opencv_contrib_python==4.9.0.80
+opencv_python==4.9.0.80
+pandas==2.2.2
+transformers==4.41.0
+ultralytics==8.2.19

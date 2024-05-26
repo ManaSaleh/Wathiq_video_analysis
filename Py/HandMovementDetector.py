@@ -13,6 +13,7 @@ class HandMovementDetector:
         self.prev_landmarks = None
         self.mp_hands = mp.solutions.hands
         self.mp_drawing = mp.solutions.drawing_utils
+        self.frame_count = 0
         self.hands = self.mp_hands.Hands(min_detection_confidence=0.7, min_tracking_confidence=0.7)
 
     def detect_movement(self):
@@ -20,7 +21,7 @@ class HandMovementDetector:
             ret, frame = self.cap.read()
             if not ret:
                 break
-
+            self.frame_count += 1
             frame = cv2.cvtColor(cv2.flip(frame, 1), cv2.COLOR_BGR2RGB)
             frame.flags.writeable = False
             results = self.hands.process(frame)
@@ -50,12 +51,12 @@ class HandMovementDetector:
         self.cap.release()
         cv2.destroyAllWindows()
         self.hands.close()
-
         return self.total_movement_session
 
     def generate_report(self):
         df = pd.DataFrame(self.movement_data, columns=['Timestamp', 'Movement'])
         df['Percentage of Total Movement'] = (df['Movement'] / self.total_movement_session) * 100
         df.to_csv('hand_movement_data.csv', index=False)
-        print(f"Total hand movement during session: {self.total_movement_session:.2f}")
-        return self.total_movement_session
+        average_movement =self.total_movement_session / self.frame_count if self.frame_count > 0 else 0
+        print(f"Total hand movement during session: {average_movement}")
+        return average_movement

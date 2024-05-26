@@ -19,19 +19,19 @@ class AudioProcessor:
     
     def classify_audio(self):
         predicted_label = self.audio_classification_model(self.output_audio_path)
-        print("Predicted Labels:")
-        for label in predicted_label:
-            print(f"Label: {label['label']}, Score: {label['score']:.4f}")
+        # print("Predicted Labels:")
+        # for label in predicted_label:
+        #     print(f"Label: {label['label']}, Score: {label['score']:.4f}")
         return predicted_label
 
     def transcribe_audio(self):
         result = self.transcription_model.transcribe(self.output_audio_path)
-        print("Transcribed Text:")
-        print(result["text"])
+        # print("Transcribed Text:")
+        # print(result["text"])
         return result["text"]
     
     def summarize_text(self, text):
         summarized_text = self.summarization_model(text)
-        print("Summarized Text:")
-        print(summarized_text)
+        # print("Summarized Text:")
+        # print(summarized_text)
         return summarized_text
