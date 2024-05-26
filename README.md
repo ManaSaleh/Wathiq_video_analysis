@@ -35,7 +35,7 @@ To use the project:
 
 1. Navigate to the project directory:
     ```sh
-    cd FinalProject
+    cd FinalProject/Py
     ```
 2. Run the main script:
     ```sh
