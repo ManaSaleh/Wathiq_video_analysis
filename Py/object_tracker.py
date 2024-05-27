@@ -52,7 +52,7 @@ class ObjectTracker:
         total_movement = sum(self.movement_distances)
         average_movement = total_movement / self.frame_count if self.frame_count > 0 else 0
 
-        if average_movement < 3:
+        if average_movement < 5:
             assessment = "Presenter is relatively stationary. Consider using more gestures and movements to engage the audience."
         elif 5 <= average_movement < 15:
             assessment = "Presenter has a moderate level of movement, which is good for engaging the audience."
@@ -68,5 +68,5 @@ class ObjectTracker:
     def print_assessment(self):
         assessment = self.assess_movement()
         return f"Total Movement Distance: {assessment['total_movement']:.2f}\n" \
-               f"Average Movement per Frame: {assessment['average_movement']:.2f}\n" \
-               f"Assessment: {assessment['assessment']}"
+               f"\nAverage Movement per Frame: {assessment['average_movement']:.2f}\n" \
+               f"\nAssessment: {assessment['assessment']}"

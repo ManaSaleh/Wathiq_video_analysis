@@ -1,6 +1,7 @@
 from moviepy.editor import VideoFileClip
 from transformers import pipeline
 import whisper
+import os
 
 class AudioProcessor:
     def __init__(self, video_path):
@@ -11,6 +12,10 @@ class AudioProcessor:
         self.summarization_model = pipeline("summarization", model="knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM")
     
     def extract_audio(self):
+        if os.path.exists(self.output_audio_path):
+            os.remove(self.output_audio_path)
+            print(f"Existing audio file '{self.output_audio_path}' removed.")
+
         video_clip = VideoFileClip(self.video_path)
         audio_clip = video_clip.audio
         audio_clip.write_audiofile(self.output_audio_path, codec='pcm_s16le')

@@ -103,5 +103,5 @@ class BodyLanguageRecognizer:
         summary = {}
         for class_name, count in self.class_counts.items():
             percentage = (count / self.total_frames) * 100
-            summary[class_name] = f'{percentage:.2f}%'
+            summary[class_name] = percentage
         return summary

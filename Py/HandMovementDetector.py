@@ -22,7 +22,7 @@ class HandMovementDetector:
             if not ret:
                 break
             self.frame_count += 1
-            frame = cv2.cvtColor(cv2.flip(frame, 1), cv2.COLOR_BGR2RGB)
+            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             frame.flags.writeable = False
             results = self.hands.process(frame)
             frame.flags.writeable = True
