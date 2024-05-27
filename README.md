@@ -1,6 +1,6 @@
 # Final Project
 
-Welcome to the Final Project repository for [Your Course/Program Name]!
+Welcome to the Final Project repository for [T5/Data Since and AI]!
 
 ## Overview
 
@@ -78,4 +78,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or feedback regarding the project, feel free to contact us at [Contact Email Address].
+For any inquiries or feedback regarding the project, feel free to contact us at [breued1@gmailcom].
