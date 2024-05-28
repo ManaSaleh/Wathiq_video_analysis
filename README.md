@@ -47,7 +47,28 @@ To use the project:
     ```sh
     streamlit run .\streamlit_app_test.py
     ```
-3.2 Alternativley you can access the indvidual modules in their script form in the folder /PythonScripts or in their notebook form in their respective folders
+4. Use preloaded example videos or upload your own and select the desired models to run your video thorugh and click analyze:
+
+<p align="center">
+   <img src="https://github.com/ManaSaleh/VideoAnalisis/assets/130837413/3814e16b-2aa7-49d3-985c-cd45d5bca20b" alt="example1" width="200"/>
+</p>
+
+Note: some of the models would be inapplicable based on the usecases like:
+- Eye detction is inapplicable if the person in the video is looking at another person when talking instead of the camera.
+- Body movement and Body Language may misbehave if used on a stationary sitting user.
+- Body Language might misbehave if the camera level is lower than eye level, confusing itself with when the person is looking up vs when the person is looking down vs looking straight ahead
+  
+
+5. Click on Analyze and you can watch the original video while waiting for all the models to finish working:
+
+<p align="center">
+   <img src="https://github.com/ManaSaleh/VideoAnalisis/assets/130837413/f9c5b308-f9ef-4748-9583-302f77584501" alt="example2" width="900"/>
+</p>
+
+6. Read the generated report to better yourself when taking interviews or giving presentations
+  
+
+
 ## File Structure
 
 ```
