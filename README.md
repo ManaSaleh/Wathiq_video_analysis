@@ -1,19 +1,19 @@
-# Final Project
+# Wathiq Interview/Presentation Analysis System
 
-Welcome to the Final Project repository for [T5/Data Since and AI]!
+This project was created as the capstone project for [T5/Data Since and ML] by Tuwaiq/SDAIA
 
 ## Overview
 
-This project aims to analyze various aspects of human behavior from a video, including body language, audio classification, eye contact, emotion detection, and hand movement analysis.
+This project aims to analyze various aspects of human behavior from a video, including body language, stutter detction, eye contact, emotion detection, and hand movement analysis, as well as transcribe and summarize the spoken content.
 
 ## Features
 
 - **Body Language Recognition**: Detects and summarizes body language cues.
-- **Audio Processing**: Classifies audio into stutter types, transcribes speech, and provides text summaries.
+- **Audio Processing**: Generates a stutter report, transcribes speech, and provides text summaries.
 - **Eye Contact Detection**: Analyzes the frequency and duration of eye contact.
 - **Emotion Detection**: Identifies and quantifies emotions from the video.
 - **Hand Movement Detection**: Detects and assesses hand movements.
-- **Object Tracking**: Tracks object movement within the video.
+- **Body Tracking**: Tracks body movement within the video.
 
 ## Installation
 
@@ -29,29 +29,34 @@ To get started with the project, follow these steps:
     ```
 3. Ensure you have ffmpeg installed on your system. You can download it from [here](https://ffmpeg.org/download.html).
 
+   
 ## Usage
 
 To use the project:
 
 1. Navigate to the project directory:
     ```sh
-    cd FinalProject/Py
+    cd FinalProject/
     ```
-2. Run the main script:
+2. Navigate to
     ```sh
-    python main.py
+   cd /PythonScripts
     ```
-
+5. Run the following command to access the streamlit app
+    ```sh
+    streamlit run .\streamlit_app_test.py
+    ```
+5.2 Alternativley you can access the indvidual modules in their script form in the folder /PythonScripts or in their notebook form in their respective folders
 ## File Structure
 
 ```
 FinalProject/
 │
-├── BL/                            # Body Language data
+├── BodyLanguage/                            # Body Language data
 │   └── coords.csv                 # Coordinates CSV file
-├── EC/                            # Eye Contact data
+├── EyeContact/                            # Eye Contact data
 │   └── Eye.csv                    # Eye CSV file
-├── Py/                            # Python scripts
+├── PythonScripts/                            # Python scripts
 │   ├── AudioProcessor.py          # Script for audio processing
 │   ├── BodyLanguageRecognizer.py  # Script for body language recognition
 │   ├── EmotionDetector.py         # Script for emotion detection
@@ -78,4 +83,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or feedback regarding the project, feel free to contact us at [breued1@gmailcom].
+For any inquiries or feedback regarding the project, feel free to contact us at [breued1@gmailcom] [adamixa@gmail.com].
