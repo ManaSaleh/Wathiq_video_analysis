@@ -84,6 +84,13 @@ Note: some of the models would be inapplicable based on the usecases like:
 </p>
 
 6. Read the generated report to better yourself when taking interviews or giving presentations
+<p align="center">
+   <img src="https://github.com/ManaSaleh/VideoAnalisis/assets/130837413/8bf06990-9e52-4d09-b9bf-5dac5b6a077c" alt="example3" width="700"/>
+   <img src="https://github.com/ManaSaleh/VideoAnalisis/assets/130837413/29f5b8ee-35a7-4c3b-9ef7-dc39414c4980" alt="example4" width="500"/>
+
+</p>
+
+
   
 
 
