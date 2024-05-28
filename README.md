@@ -52,18 +52,32 @@ To use the project:
 ```
 FinalProject/
 │
-├── BodyLanguage/                            # Body Language data
-│   └── coords.csv                 # Coordinates CSV file
-├── EyeContact/                            # Eye Contact data
-│   └── Eye.csv                    # Eye CSV file
-├── PythonScripts/                            # Python scripts
+├── AudioProcessing/               # Audio Processing data
+|   ├── A.ipynb                    # Audio Processing Notebook
+|   └── extracted_audio.wav        # Extracted audio from notebook run
+├── BodyLanguage/                  # Body Language data
+|   ├── BL.ipynb                   # Body Language Notebook
+│   ├── coords.csv                 # Coordinates CSV file
+|   └── body_language.pkl          # Model Weights for Body Language model
+├── EyeContact/                    # Eye Contact data
+|   ├── Eyecontact.ipynb           # Eye Contact Notebook
+│   ├── Eye.csv                    # Eye CSV file
+|   └── Eye.pkl                    # Model Weights for Eye contact model
+├── FaceEmotion/                   # Face Emotion data
+|   ├── FaceEmotion.ipynb          # Face Emotion Notebook
+|   └── bestFace.pt                # Model Weights for Face Emotion Model
+├── HandMovement/                  # Hand Movement data
+|   ├── hands.ipynb                # Hand Movement Notebook
+|   └── hand_movement_data.csv     # Saved results from notebook run
+├── PythonScripts/                 # Python scripts
 │   ├── AudioProcessor.py          # Script for audio processing
 │   ├── BodyLanguageRecognizer.py  # Script for body language recognition
 │   ├── EmotionDetector.py         # Script for emotion detection
 │   ├── EyeContact.py              # Script for eye contact analysis
 │   ├── HandMovementDetector.py    # Script for hand movement detection
 │   ├── ObjectTracker.py           # Script for object tracking
-│   └── main.py                    # Main script to run the analysis
+│   ├── main.py                    # Main script to run the analysis in CLI
+|   └── streamlit_app.py      # Streamlit App script
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Project README file
 ```
