@@ -42,11 +42,11 @@ To use the project:
     ```sh
    cd /PythonScripts
     ```
-5. Run the following command to access the streamlit app
+3. Run the following command to access the streamlit app
     ```sh
     streamlit run .\streamlit_app_test.py
     ```
-5.2 Alternativley you can access the indvidual modules in their script form in the folder /PythonScripts or in their notebook form in their respective folders
+3.2 Alternativley you can access the indvidual modules in their script form in the folder /PythonScripts or in their notebook form in their respective folders
 ## File Structure
 
 ```
