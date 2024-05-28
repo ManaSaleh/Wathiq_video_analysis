@@ -1,7 +1,7 @@
 ![Logo](PythonScripts/logo.png)
 # Wathiq Interview/Presentation Analysis System
 
-This project was created as the capstone project for [T5/Data Since and ML] by Tuwaiq/SDAIA
+This project was created as the capstone project for [T5/Data Science and ML] by Tuwaiq/SDAIA
 
 ## Overview
 
