@@ -1,4 +1,7 @@
-![Logo](PythonScripts/logo.png)
+<p align="center">
+   <img src="PythonScripts/logo.png" alt="example1"/>
+</p>
+
 # Wathiq Interview/Presentation Analysis System
 
 This project was created as the capstone project for [T5/Data Science and ML] by Tuwaiq/SDAIA
