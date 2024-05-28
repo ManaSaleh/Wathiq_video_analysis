@@ -3,18 +3,33 @@
 
 This project was created as the capstone project for [T5/Data Science and ML] by Tuwaiq/SDAIA
 
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+## Table of Contents
+   * [Overview](#overview)
+   * [Features](#features)
+   * [Installation](#installation)
+   * [Usage](#usage)
+   * [File Structure](#file-structure)
+   * [Libraries Used](#libraries-used)
+   * [Contributing](#contributing)
+   * [License](#license)
+   * [Contact](#contact)
+
+<!-- TOC end -->
+
 ## Overview
 
-This project aims to analyze various aspects of human behavior from a video, including body language, stutter detction, eye contact, emotion detection, and hand movement analysis, as well as transcribe and summarize the spoken content.
+This project aims to analyze various aspects of human behavior from a video including body language, hand movement, stutter detction, eye contact, emotion detection, as well as transcribe and summarize the spoken content.
 
 ## Features
 
 - **Body Language Recognition**: Detects and summarizes body language cues.
-- **Audio Processing**: Generates a stutter report, transcribes speech, and provides text summaries.
+- **Body Tracking**: Tracks body movement within the video.
+- **Hand Movement Detection**: Detects and assesses hand movements.
 - **Eye Contact Detection**: Analyzes the frequency and duration of eye contact.
 - **Emotion Detection**: Identifies and quantifies emotions from the video.
-- **Hand Movement Detection**: Detects and assesses hand movements.
-- **Body Tracking**: Tracks body movement within the video.
+- **Audio Processing**: Generates a stutter report, transcribes speech, and provides text summaries.
+
 
 ## Installation
 
@@ -103,6 +118,11 @@ FinalProject/
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Project README file
 ```
+## Libraries Used
+1. MediaPipe
+2. DeepFace
+3. Ultralytics (YOLO)
+4. Streamlit
 
 ## Contributing
 
