@@ -149,4 +149,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or feedback regarding the project, feel free to contact us at [breued1@gmailcom] [adamixa@gmail.com].
+For any inquiries or feedback regarding the project, feel free to contact us at [breued1@gmail.com] [adamixa@gmail.com].
