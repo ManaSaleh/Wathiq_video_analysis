@@ -55,7 +55,7 @@ To use the project:
 
 1. Navigate to the project directory:
     ```sh
-    cd FinalProject/PythonScripts
+    cd Wathiq_video_analysis/PythonScripts
     ```
 2. Run the following command to access the Streamlit app:
     ```sh
