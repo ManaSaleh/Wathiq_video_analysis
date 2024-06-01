@@ -79,11 +79,27 @@ Note: some of the models would be inapplicable based on the usecases like:
    <img src="https://github.com/ManaSaleh/VideoAnalisis/assets/130837413/f9c5b308-f9ef-4748-9583-302f77584501" alt="example2" width="900"/>
 </p>
 
-6. Read the generated report to better yourself when taking interviews or giving presentations
-<p align="center">
-   <img src="https://github.com/ManaSaleh/VideoAnalisis/assets/130837413/8bf06990-9e52-4d09-b9bf-5dac5b6a077c" alt="example3" width="700"/>
-   <img src="https://github.com/ManaSaleh/VideoAnalisis/assets/130837413/29f5b8ee-35a7-4c3b-9ef7-dc39414c4980" alt="example4" width="500"/>
-
+6. Read the generated report to better yourself when taking interviews or giving presentations, sample results
+<p align="left">
+   Body Language Summary
+      - The head looks to the left: 17.14%
+      - Hands behind the back: 23.89%
+      - Normal: 34.84%
+      - Head looks down: 9.50%
+      - Hand on waist: 1.21%
+      - Hands joined together: 12.29%
+      - The head looks to the right: 0.35%
+   Hand Movement Report
+      - Average Movement per Frame: 0.08
+      - Presenter's hands are relatively stationary. Consider using more gestures to engage the audience.
+   Body Movement Report
+      - Total Movement Distance: 10363.02
+      - Average Movement per Frame: 1.63
+      - Assessment: Presenter is relatively stationary. Consider using more gestures and movements to engage the audience.
+   
+   Recommendations for body language, hand movement, and body movement
+      - Incorporate more gestures and movements during the presentation to engage the audience.
+      - Avoid being too stationary and make use of the stage area for more dynamic delivery.
 </p>
 
 
