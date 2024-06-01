@@ -55,15 +55,11 @@ To use the project:
 
 1. Navigate to the project directory:
     ```sh
-    cd FinalProject/
+    cd FinalProject/PythonScripts
     ```
-2. Navigate to
+2. Run the following command to access the streamlit app
     ```sh
-   cd /PythonScripts
-    ```
-3. Run the following command to access the streamlit app
-    ```sh
-    streamlit run .\streamlit_app_test.py
+    streamlit run streamlit_app.py
     ```
 4. Use preloaded example videos or upload your own and select the desired models to run your video thorugh and click analyze:
 
