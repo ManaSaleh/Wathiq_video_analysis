@@ -3,7 +3,7 @@ import openai
 import os
 from BodyLanguageRecognizer import BodyLanguageRecognizer
 from AudioProcessor import AudioProcessor
-from EyeContact import EyeContact
+from Eyecontact import EyeContact
 from EmotionDetector import EmotionDetector
 from HandMovementDetector import HandMovementDetector
 from object_tracker import ObjectTracker
