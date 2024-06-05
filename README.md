@@ -7,7 +7,7 @@
 # Wathiq Interview/Presentation Analysis System
 
 This project was created as the capstone project for [T5/Data Science and ML] by Tuwaiq/SDAIA
-
+The project is made by  Mana Saleh Al-Aqeel, Adam Al-Abduljabar, Moudi Al-Hazzaa, and Raghad Al-Qithmi.
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 ## Table of Contents
 * [Overview](#overview)
