@@ -74,10 +74,6 @@ To use the project:
 
 4. Click on Analyze and you can watch the original video while waiting for all the models to finish working:
 
-<p align="center">
-   <img src="https://github.com/ManaSaleh/VideoAnalisis/assets/130837413/f9c5b308-f9ef-4748-9583-302f77584501" alt="example2" width="900"/>
-</p>
-
 5. Read the generated report to improve your performance in interviews or presentations. Sample results:
 
 <p align="left">
@@ -149,6 +145,7 @@ FinalProject/
 2. DeepFace
 3. Ultralytics (YOLO)
 4. Streamlit
+5. OpenAI
 
 ## Contributing
 
@@ -165,7 +162,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or feedback regarding the project, feel free to contact us at [breued1@gmail.com](mailto:breued1@gmail.com) [adamixa@gmail.com](mailto:adamixa@gmail.com).
+For any inquiries or feedback regarding the project, feel free to contact us at  [adamixa@gmail.com](mailto:adamixa@gmail.com) [breued1@gmail.com](mailto:breued1@gmail.com).
 
 ---
 
